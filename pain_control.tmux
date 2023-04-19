@@ -16,14 +16,14 @@ get_tmux_option() {
 }
 
 pane_navigation_bindings() {
-	tmux bind-key h   "select-pane -L; resize-pane -x 120"
-	tmux bind-key C-h "select-pane -L; resize-pane -x 120"
+    tmux bind-key h   "select-pane -L; resize-pane -x 160"
+	tmux bind-key C-h "select-pane -L; resize-pane -x 160"
 	tmux bind-key j   select-pane -D
 	tmux bind-key C-j select-pane -D
 	tmux bind-key k   select-pane -U
 	tmux bind-key C-k select-pane -U
-	tmux bind-key l   "select-pane -L; resize-pane -x 120"
-	tmux bind-key C-l "select-pane -L; resize-pane -x 120"
+	tmux bind-key l   "select-pane -L; resize-pane -x 160"
+	tmux bind-key C-l "select-pane -L; resize-pane -x 160"
 }
 
 window_move_bindings() {
